@@ -10,7 +10,7 @@ import {getAuth, GoogleAuthProvider} from 'firebase/auth'
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: "AIzaSyDZQ7xHKzugplBNSAxz3Id0QfLKsx8_d4U",
-  authDomain: "blog-firebase-fullstack-eqlyl9aep-savagrujics-projects.vercel.app",
+  authDomain: "blogapp-cb3c2.firebaseapp.com",
   projectId: "blogapp-cb3c2",
   storageBucket: "blogapp-cb3c2.firebasestorage.app",
   messagingSenderId: "422900134474",
