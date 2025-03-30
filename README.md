@@ -1,5 +1,4 @@
-BlogFirebaseFullstackApp
-BlogFirebaseFullstackApp is a full-stack blogging platform built using React and Firebase. It allows users to create, edit, and delete blog posts while providing a secure authentication system. The app is designed for real-time data updates and scalability.
+BlogFirebase is a full-stack blogging platform built using React and Firebase. It allows users to create, edit, and delete blog posts while providing a secure authentication system. The app is designed for real-time data updates and scalability.
 
 🔥 Features
 ✅ User Authentication
