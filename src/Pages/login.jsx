@@ -1,5 +1,5 @@
 import { auth, provider } from "../firebase-config"
-import { signInWithPopup } from 'firebase/auth'
+import { signInWithPopup, signInWithRedirect } from 'firebase/auth'
 import { useNavigate } from "react-router"
 export default function Home({ setisAuth }) {
 
@@ -7,7 +7,7 @@ export default function Home({ setisAuth }) {
 
     function Login() {
 
-        signInWithPopup(auth, provider).then((result) => {
+        signInWithRedirect(auth, provider).then((result) => {
             setisAuth(true)
             localStorage.setItem('isAuth', true)
             navigate('/')
