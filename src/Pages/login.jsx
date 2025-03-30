@@ -7,7 +7,7 @@ export default function Home({ setisAuth }) {
 
     function Login() {
 
-        signInWithRedirect(auth, provider).then((result) => {
+        signInWithPopup(auth, provider).then((result) => {
             setisAuth(true)
             localStorage.setItem('isAuth', true)
             navigate('/')
