@@ -35,7 +35,7 @@ function App() {
       <nav>
         <Link to='/'>Home</Link>
        {isAuth ?  <Link to='/createpost'>Create Post</Link>: ''}
-        {isAuth ? <button onClick={logout}>Log Out</button>: (<Link to='/login'>Login</Link>)}
+        {isAuth ? <button onClick={logout} className='btn'>Log Out</button>: (<Link to='/login'>Login</Link>)}
         {isAuth ? <img src={img} />:  ''}
       </nav>
       <Routes>

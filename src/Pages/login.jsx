@@ -1,6 +1,7 @@
 import { auth, provider } from "../firebase-config"
 import { signInWithPopup, signInWithRedirect } from 'firebase/auth'
 import { useNavigate } from "react-router"
+import './login.css'
 export default function Home({ setisAuth }) {
 
     let navigate = useNavigate()
@@ -26,10 +27,7 @@ export default function Home({ setisAuth }) {
             }
         }>
             <p>Sign in With Google</p>
-            <button onClick={Login} style={{
-                padding: '10px'
-                
-            }}>Sign in With Google</button>
+            <button onClick={Login} className="googlebtn">Sign in With Google</button>
 
         </div>
 
