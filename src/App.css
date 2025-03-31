@@ -31,7 +31,14 @@ img {
   border-radius: 50px;
   margin-left: auto;
 }
-
+.logo {
+  color: white;
+  margin: 10px;
+}
+.bluelogo {
+  color: rgb(120, 120, 255);
+  
+}
 @media only screen and (max-width:600px) {
     nav {
       a {

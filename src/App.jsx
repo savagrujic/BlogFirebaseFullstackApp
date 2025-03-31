@@ -33,6 +33,7 @@ function App() {
   return (
     <Router>
       <nav>
+        <h1 className='logo'>Echo<span className='bluelogo'>Post</span></h1>
         <Link to='/'>Home</Link>
        {isAuth ?  <Link to='/createpost'>Create Post</Link>: ''}
         {isAuth ? <button onClick={logout} className='btn'>Log Out</button>: (<Link to='/login'>Login</Link>)}
